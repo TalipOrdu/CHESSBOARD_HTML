@@ -1,0 +1,68 @@
+       body {
+
+
+           background-image: url("Pic/unsplash.png");
+           background-size: cover;
+
+       }
+
+       table {
+           margin: auto;
+           padding: 0px;
+           background-clip: padding-box;
+           border: 30px solid rgb(26, 52, 124);
+       }
+
+       table td {
+           border: 2px solid rgb(16, 115, 145);
+           width: 60px;
+           height: 60px;
+
+       }
+
+       table thead .white {
+           background-color: rgb(87, 134, 56);
+       }
+
+       table thead .black {
+           background-color: rgb(139, 139, 112);
+       }
+
+       table tbody .black {
+           background-color: rgb(139, 139, 112);
+       }
+
+       table tbody .white {
+           background-color: rgb(87, 134, 56);
+       }
+
+       table td img {
+           width: 60px;
+           height: 60px;
+           background-size: cover;
+           color: white;
+       }
+
+       table .letter {
+           background-color: black;
+           border: none;
+           text-align: center;
+           color: white;
+           height: 30px;
+           font-size: 30px;
+           empty-cells: show;
+       }
+
+       table .num {
+           background-color: black;
+           text-align: center;
+           font-size: 30px;
+           color: white;
+           empty-cells: show;
+       }
+
+       table caption {
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size: 30px;
+           
+       }
