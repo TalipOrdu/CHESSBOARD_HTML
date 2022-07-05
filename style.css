@@ -1,8 +1,14 @@
        body {
 
+        background-image: url("Pic/unsplash.png");
+        background-size: cover;
 
-           background-image: url("Pic/unsplash.png");
-           background-size: cover;
+       }
+       .result{
+        padding-left: 100px;
+        position: fixed;
+        font-size: 24px;
+        font-weight: 600;
 
        }
 
@@ -11,6 +17,7 @@
            padding: 0px;
            background-clip: padding-box;
            border: 30px solid rgb(26, 52, 124);
+           
        }
 
        table td {
@@ -41,6 +48,10 @@
            height: 60px;
            background-size: cover;
            color: white;
+       }
+       table td:hover{
+        background-color: aqua;
+        cursor: pointer;
        }
 
        table .letter {
